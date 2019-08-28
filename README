@@ -1,2 +1,6 @@
 Here are some instructions to deploy the app:
-1- cd countryapp && $ build . 
+1- git clone https://github.com/Arwa-Mohsen/incortatask.git
+2- cd icortatask/dockercompose
+3- sudo docker-compose up -d
+4- curl http://<public ip>:8000/countries
+(note: if you are working locally replace public ip by "localhost")
